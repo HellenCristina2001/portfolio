@@ -1,0 +1,87 @@
+body {
+
+	background-color: lightblue;
+}
+
+.titulo {
+
+	background-color: white;
+	width: 100%;
+}
+
+h1{
+
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+.imagem-1 {
+
+
+	width: 90%;
+	margin: 1.0rem;
+}
+
+.titulo-1 {
+
+	text-align: center;
+	margin: 0.9rem;
+	font-size: 1.8rem;
+}
+
+.alura {
+
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.botao {
+
+	text-align: center;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+h1{
+
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+.decodificador {
+
+	text-align: center;
+}
+
+.imagem-1 {
+
+
+	width: 50%;
+}
+
+
+.titulo-1 {
+
+	text-align: center;
+	margin: 0.5rem;
+	font-size: 1.5;
+
+}
+.alura {
+
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.botao {
+
+	text-align: center;
+	
+}
+
+
+
+
+}

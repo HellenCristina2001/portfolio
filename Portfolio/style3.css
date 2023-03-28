@@ -1,0 +1,134 @@
+body{
+
+	background-color: #FDFD96;
+}
+.cabecalho {
+
+	background: yellow;
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+.container {
+
+	display: flex;
+	justify-content: space-between;
+	padding: 1.5rem;
+
+
+}
+
+.imagem {
+
+	width: 15%;
+	border: 5px solid black;
+
+
+}
+
+.textos {
+
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.lista {
+
+	font-size: clamp(0.7em, 0.7em + 1vw, 1.5em);
+	font-weight: bold;
+	margin: 0.3rem;
+
+}
+ 
+ .imagem-2 {
+
+	width: 10%;
+	margin: 0.9rem;
+
+}
+
+.base {
+
+	padding: 0.2rem;
+	margin: 2.5rem;
+	width: 72%;
+	background: #D3D3D3 ;
+	text-align: center;
+	font-size: 1.4rem;
+}
+
+h2 {
+
+	font-size: 1.9rem;
+	font-weight: bold;
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+
+.cabecalho {
+
+	background: yellow;
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+.container {
+
+	display: flex;
+	justify-content: space-around;
+	padding: 1.5rem;
+
+
+}
+
+.imagem {
+
+	width: 15%;
+	border: 5px solid black;
+
+
+}
+
+.textos {
+
+	display: flex;
+	justify-content: space-around;
+
+
+}
+
+.lista {
+
+	font-size: 1.0rem;
+	font-weight: bold
+
+}
+
+.imagem-2 {
+
+	width: 10%;
+	margin: 3.9rem;
+}
+
+.base {
+
+	padding: 0.2rem;
+	margin: 2.5rem;
+	width: 90%;
+	background: #D3D3D3 ;
+	text-align: center;
+	font-size: 1.4rem;
+}
+
+h2 {
+
+	font-size: 1.9rem;
+	font-weight: bold;
+
+}
+
+}
