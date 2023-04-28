@@ -5,10 +5,133 @@ header {
 	padding: 25px;
 }
 
+.fotos {
+
+	width: 100%;
+
+}
+
+nav > ul > li{
+
+	display: inline;
+	text-align: center;
+
+	
+	
+}
+
+ul {
+
+	background-color: transparent;
+	border-radius: 18px;
+	margin: 0.5rem;
+	padding: 0.5rem;
+	text-align: center;
+
+
+}
+
+
+
+ a {
+
+ 	width: 80%;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+    text-decoration: none;
+
+}
+
+
+a:hover {
+		color: black;
+		text-decoration: underline;
+}
+
+.imagem {
+
+	padding: 1.5rem;
+}
 
 .textos{
 
 	background-color: #D6DEE2;
+
+}
+
+.titulo {
+
+	text-align: center;
+	font-size: 38px;
+}
+
+
+.hobbies {
+
+	font-size: 20px;
+	padding: 19px;
+	margin: 19px;
+}
+
+@media screen and (min-width: 1200px)  {
+
+header {
+
+	display: flex;
+	justify-content: space-around;
+	padding: 25px;
+}
+
+nav > ul > li{
+
+	display: inline;
+	text-align: center;
+
+	
+	
+}
+
+ul {
+
+	background-color: transparent;
+	border-radius: 18px;
+	margin: 0.5rem;
+	padding: 0.5rem;
+	text-align: center;
+
+
+}
+
+
+
+ a {
+
+ 	width: 80%;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+    text-decoration: none;
+
+}
+
+
+a:hover {
+		color: black;
+		text-decoration: underline;
+}
+
+.imagem {
+
+	padding: 1.5rem;
+}
+
+.textos{
+
+	background-color: #D6DEE2;
+	padding: 3.5rem;
 }
 
 .titulo {
